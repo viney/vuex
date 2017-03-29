@@ -1,7 +1,9 @@
 import * as types from './mutation-types'
 
-export const incrementCount = ({ commit }, num) => {
+export const incrementAccountCount = ({ commit }, num) => {
+  console.log(num)
   if (num > 0) {
-    commit(types.INCREMENT, { num })
+    console.log(types)
+    commit(types.ACCOUNT_INCREMENT, { num })
   }
 }

@@ -1,4 +1,1 @@
-export const getIncrementCount = state => {
-  const count = state.increment.count
-  return count
-}
+export const getAccountCount = state => state.account.count
